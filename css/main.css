@@ -1,0 +1,340 @@
+body{
+	background:url("image/white.jpg") no-repeat; 
+	background-repeat:no-repeat;
+	background-position:center center;  
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+
+}
+h3{
+     text-align:center;
+     color:#565656;
+}
+h2,h3,h4,h5,h6{
+    font-family: inherit;
+    font-weight: bolder;
+}
+
+.logo{
+  width:150%;
+  border-radius: 50px;
+  transition: transform .2s;
+  padding:10px;
+}
+.logo:hover{
+  transform: scale(1.1);
+}
+
+.top-bar-right input[type=text]{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border-radius: 15px;
+}
+.dp{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    border:2px solid white;
+}
+.nav{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.menu-text h4{
+    color:#DADBDD;
+    font-family: 'Major Mono Display', monospace;
+}
+.menu-text span{
+    color:#853B92;
+    font-weight: bolder;
+}
+.box{
+	width:100%;
+	min-height: 200px;
+	border:2px solid white;
+	text-align: center;
+}
+.box img{
+	width:200px;
+	height:200px;
+	border-radius: 50%;
+	float:left;
+}
+
+
+/*Pop Up Form CSS*/
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+.avatar {
+    width: 200px;
+	height:200px;
+    border-radius: 50%;
+}
+
+/* The Modal (background) */
+.modal {
+	display:none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 4% auto 15% auto;
+    border: 1px solid #888;
+    width: 50%; 
+    padding: 30px;
+    border-radius: 5px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,.close:focus {
+    color: #853B92;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    animation: zoom 0.6s
+}
+@keyframes zoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+.modal-content input[type=submit]{
+	background-color: transparent!important;
+    color: white;
+    padding: 0;
+    margin:0 auto;
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+	font-size:20px;
+	border: none;
+}
+
+.modal-content input[type=submit]{
+	opacity: 0.8;
+}
+
+.modal-content button {
+    background-color: #853B92;
+    color: white;
+    padding: 14px 20px;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+	font-size:20px;
+}
+.modal-content button a{
+	text-decoration:none;
+	color: #DADBDD;
+}
+.modal-content button:hover{
+    background-color: #926FAC;
+    opacity: 0.8;
+}
+/*Pop up End*/
+
+.error {
+    color: red;
+}
+.top-bar,.menu {
+    background-color:rgba(34, 39, 45, 1) !important;
+    padding:2px!important;
+    border-radius: 5px;
+	
+}
+.top-bar li a:hover{
+	background-color:rgba(30, 30, 30, 0.5) !important;
+}
+.top-bar ul{
+    background-color:rgba(34, 39, 45, 1) !important;
+    padding:10px;
+    padding-bottom: 0px!important;
+    border-radius: 5px;
+}
+.top-bar  li a{
+    font-size:16px;
+    font-weight: bold;
+	color:white!important;
+   font-family: 'Montserrat', sans-serif;
+}
+.title-bar-title{
+    color:white!important;
+   font-family: 'Major Mono Display', monospace;
+}
+.title-bar{
+    background-color:rgba(30, 30, 30, 0.5) !important;
+}
+#container1{
+    background-color: rgba(30, 30, 30, 0.5);
+    margin:0% auto 4% auto;
+    border: 1px solid #888;
+    width: 50%; 
+    padding: 30px;
+    border-radius: 5px;
+}
+.card{
+   height:550px;
+   border-radius: 10px;
+}
+.card-divider{
+    background-color: transparent!important;
+}
+.card-divider h4{
+    font-family: 'Montserrat', sans-serif;
+}
+.fav{
+    color:#FFFF59;
+    font-size: 48px;
+}
+.fav:hover{
+    color:#BDB76B;
+}
+.locationicon{
+    color:#565656;
+    font-size: 24px;
+}
+.card-section{
+    color:#565656;
+}
+.ticket{
+    color:#853B92;
+    font-weight: bolder;
+}
+.callout.secondary{
+    background-color:rgba(30, 30, 30, 0.9)!important ;
+}
+.callout{
+    margin-bottom:-5px;
+}
+#viewprofile{
+    padding:30px;
+    background-color: rgba(255, 255, 255,0.9);
+    border-radius: 15px;
+}
+#viewalleventgrid{
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 15px;
+}
+.hundred{ /* thumbnail images*/
+    width:100px;
+    height:100px;
+}
+#description{
+    height:130px;
+}
+.hundred1{ /* thumbnail images*/
+    width:300px;
+    height:200px;
+}
+#description1{
+   height: 130px;
+}
+#description1 p{
+    text-align: justify;
+}
+#title1{
+    height:70px; 
+}
+#title{
+    height:70px; 
+}
+.card-divider h4{
+    font-size: 20px;
+}
+.purple{
+    background-color: #853B92!important;
+}
+.purple:hover{
+    background-color:#926FAC!important;
+}
+#viewgrid{
+    padding:40px;
+}
+#viewgrid p{
+    text-align: center;
+}
+.green{
+    color: rgb(70, 156, 70);
+}
+#viewpurchase{
+    padding:30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    overflow-y: scroll; /*for scrolling purposes*/
+    height: 672px;
+    border-radius: 15px;
+}
+.large1{
+ font-size: 48px;
+ color:rgba(255, 255, 255, 0.5);
+}
+.large1:hover{
+    font-size: 48px;
+    color:rgba(255, 255, 255, 0.9);
+   }
+
+.top-bar-right input[type=text]{
+	width:300px;
+	padding:10px;
+}
+.top-bar-right i{
+    cursor: pointer;
+}
+select{
+    width:50%;
+}
+input[type=submit]{
+    background-color: #853B92!important;
+	color: white;
+	width:100px;
+	padding:10px;
+	border: 1px solid white;
+}
+input[type=submit]:hover{
+	background-color:#926FAC!important;
+}
+.colorless{
+    background-color: transparent!important;
+}
+.img{
+    width:600px;
+    height:200px;
+}
+.img_detail{
+    width:350px;
+    height:100px;
+}
+#aboutus p{
+    color:white;
+}
